@@ -1,0 +1,27 @@
+.featured {
+  padding: 5rem 0;
+  display: flex;
+  gap: 3rem;
+}
+
+.featured__background {
+  flex: 1;
+  background-image: url("https://images.pexels.com/photos/32870/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 25rem;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.featured__background div {
+  position: absolute;
+  bottom: 3rem;
+  left: 3rem;
+  color: #fff;
+}
+
+.featured__background div h2 {
+  font-size: 3rem;
+}

@@ -1,0 +1,40 @@
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: var(--primary-color);
+  height: 20rem;
+}
+
+.newsletter h1 {
+  color: #fff;
+}
+
+.newsletter p {
+  color: #fff;
+}
+
+.newsletter div {
+  margin-top: 0.5rem;
+  width: 40rem;
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.newsletter input {
+  flex: 1;
+  height: 100%;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.newsletter button {
+  height: 100%;
+  border-radius: 1rem;
+  background-color: var(--secondary-color);
+  color: #fff;
+}

@@ -1,0 +1,9 @@
+.top-container {
+  background-color: var(--primary-color);
+}
+
+.sub-container,
+.bottom-container {
+  margin: 0 auto;
+  max-width: 114rem;
+}

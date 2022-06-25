@@ -1,0 +1,93 @@
+.lists {
+  display: flex;
+  gap: 2rem;
+  margin: 3rem auto !important;
+}
+
+.lists__search {
+  flex: 1;
+  background-color: #ffaf2a;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: fit-content;
+  position: sticky;
+  top: 2rem;
+}
+
+.lists__search__btn {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.lists__list {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.lists__search__destination {
+  display: flex;
+  flex-direction: column;
+}
+
+.lists__search__destination label {
+  padding-bottom: 0.5rem;
+}
+
+.lists__search__destination input {
+  padding: 1rem;
+}
+
+.lists__search__date {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.date__label {
+  padding-bottom: 0.5rem;
+}
+
+.date__input {
+  background-color: #fff;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.lists__search__date-range {
+  position: absolute;
+  top: 7rem;
+  left: 0;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.lists__search__options {
+  display: flex;
+  flex-direction: column;
+}
+
+.lists__search__options-inner {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.lists__search__options-inner div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lists__search__options-inner div label {
+  font-size: 1.3rem;
+}
+
+.lists__search__options-inner div input {
+  width: 5rem;
+  padding: 0 0 0 1rem;
+}

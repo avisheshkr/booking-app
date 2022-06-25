@@ -1,0 +1,24 @@
+.footer {
+  padding: 2rem 0;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+.footer__top ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer__top ul li {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+}
+
+.footer__bottom p {
+  font-size: 1.2rem;
+}

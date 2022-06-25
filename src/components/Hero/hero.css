@@ -1,0 +1,18 @@
+.hero {
+  padding: 3rem 0 10rem 0;
+}
+
+.hero h2 {
+  font-size: 4rem;
+  color: #fff;
+}
+
+.hero p {
+  color: #fff;
+  padding: 1rem 0 2rem 0;
+}
+
+.hero button {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
